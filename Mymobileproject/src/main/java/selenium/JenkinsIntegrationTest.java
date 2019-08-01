@@ -9,5 +9,6 @@ public class JenkinsIntegrationTest extends browser{
 		initiatebrowser();
 		System.out.println("Maven project running");
 		
+		
 	}
 }

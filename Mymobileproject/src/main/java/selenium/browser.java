@@ -11,8 +11,6 @@ public class browser {
 	WebDriver driver =new ChromeDriver();
 	driver.get("http://www.google.com");
 	System.out.println(driver.getTitle());*/
-	System.out.println("This is jenkins continuous integration project");
-		
-	
-}
+	System.out.println("check for war file");
+	}
 }

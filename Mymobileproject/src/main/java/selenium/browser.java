@@ -11,6 +11,6 @@ public class browser {
 	WebDriver driver =new ChromeDriver();
 	driver.get("http://www.google.com");
 	System.out.println(driver.getTitle());*/
-	System.out.println("check for war file");
+	System.out.println("Able to generate .war file");
 	}
 }

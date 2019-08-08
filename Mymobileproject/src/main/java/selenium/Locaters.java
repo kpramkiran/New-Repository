@@ -32,7 +32,7 @@ public class Locaters {
 	public String errorpass1                  ="Invalid credentials, please check! 4 attempts left.";
 	public String errorpass2                  ="Invalid credentials, please check! 3 attempts left.";
 	public String errorpass3                  ="Invalid credentials, please check! 2 attempts left.";
-
+	public String typehere					  ="Type here to search";
 	/*Login verification Locators*/              
 	public String HomepageN                   ="HOME";	
 

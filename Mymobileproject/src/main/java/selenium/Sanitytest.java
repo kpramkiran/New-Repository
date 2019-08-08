@@ -163,8 +163,7 @@ public class Sanitytest extends Locaters{
 	}	
 	public void enterValueN(String Name, String enterValue, String elementName) throws Exception{
 
-		try {
-					
+		try {					
 			DN(Name).sendKeys(enterValue);
 			} catch (Exception e) {
 					}
@@ -258,20 +257,12 @@ public class Sanitytest extends Locaters{
 			drivePath = new File(winiumDriverPath);
 			WiniumDriverService	services = new WiniumDriverService.Builder().usingDriverExecutable(drivePath).usingPort(9999).withVerbose(true).withSilent(false).buildDesktopService();
 			services.start(); 
-			WiniumDriver driver=new WiniumDriver(services,options);
-			/*FirefoxProfile profile = new FirefoxProfile();
-				profile.setPreference("browser.download.dir", "D:\\");
-				profile.setPreference("browser.download.folderList", 2);
-				profile.setPreference("browser.helperApps.neverAsk.saveToDisk","application/pdf"); 
-				profile.setPreference("browser.download.manager.showWhenStarting", false );
-				profile.setPreference("pdfjs.disabled", true );
-				webDriver = new FirefoxDriver();*/
-
+			/*WiniumDriver driver=new WiniumDriver(services,options);
 			act=new Actions(driver);	
-			DN("Type here to search").sendKeys("Mobile");		
+			DN(typehere).sendKeys("Mobile");	
 			r.keyPress(KeyEvent.VK_ENTER);
-			r.keyRelease(KeyEvent.VK_ENTER);	
-
+			r.keyRelease(KeyEvent.VK_ENTER);*/	
+			
 		} 
 		catch (Exception e) 
 		{

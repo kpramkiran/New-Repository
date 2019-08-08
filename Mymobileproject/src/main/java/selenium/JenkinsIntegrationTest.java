@@ -8,7 +8,6 @@ public class JenkinsIntegrationTest extends browser{
 	public void test() {
 		initiatebrowser();
 		System.out.println("Maven project running");
-		
-		
+			
 	}
 }

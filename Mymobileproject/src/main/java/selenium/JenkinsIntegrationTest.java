@@ -7,7 +7,7 @@ public class JenkinsIntegrationTest extends browser{
 	@Test
 	public void test() {
 		initiatebrowser();
-		System.out.println("Maven project running");
+		System.out.println("RAm updates Maven project running");
 			
 	}
 }
